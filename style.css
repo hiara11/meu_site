@@ -1,0 +1,102 @@
+
+html, body{ 
+  position: relative;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #161616;
+  color: white;
+}
+
+.header{
+  position: relative;
+  background-image: url("fotos.jpg");
+  background-position: left;
+  background-size: cover;
+  min-height: calc(100vh - 75px);
+  background-attachment: fixed;
+}
+
+.navegacao{
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #292727;
+  z-index: 100;
+}
+
+.lista-navegacao{
+  padding: 0.5rem;
+}
+
+.lista-item{
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  padding: 5px;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-link:hover{
+  color:violet;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 25px;
+}
+
+.section{
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  max-width: 750px;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-text{
+  margin: 0;
+  padding: 15px;
+}
+
+.section-text2{
+  padding: 15px;
+  text-align: center;
+}
+
+.sobre{
+  background-image: url("flor.jpg");
+  position: relative;
+  background-position: center;  
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 75px);
+  background-attachment: fixed;
+}
+
+.lazer{
+    background-color: #3b3b3b; 
+    position: relative;
+    background-position: center;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 75px);
+    background-attachment: fixed;
+}
+.img-lazer{
+  max-height: 300px;
+  max-width: 65vw;
+  float: left;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.footer{
+  text-align: center;
+}
